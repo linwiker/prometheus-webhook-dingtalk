@@ -18,7 +18,7 @@ const (
 **Annotations**
 {{ range .Annotations.SortedPairs }}> - {{ .Name }}: {{ .Value | markdown | html }}
 {{ end }}
-**Source:** {{ .GeneratorURL }}
+[**Source:**]({{ .GeneratorURL }})
 
 {{ end }}{{ end }}
 
